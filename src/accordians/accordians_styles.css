@@ -1,0 +1,46 @@
+.body{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #4B145B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+}
+.white{
+    width: 68%;
+    min-height: 80%;
+    border-radius: 5px;
+    /* margin-top: 10vh;
+    margin-bottom: 10vh; */
+}
+.left h3{
+    font-size: 1.75rem;
+}
+.single_accordian{
+width: 100%;
+border-radius: 5px;
+}
+.single_accordian .top h4{
+    font-size: 20px;
+}
+.plus p{
+    font-size: 24px;
+    color: #b4345db5;
+    margin-top: -3px !important;
+  
+}
+.plus{
+    border-radius: 50%;
+    background-color: #EAE6EB;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    margin-top: -5px !important;
+    cursor: pointer;
+    user-select: none;
+
+}
